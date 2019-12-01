@@ -1,0 +1,47 @@
+<RelativeLayout
+    android:id="@+id/snackbar_layout_root"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:background="@android:color/black"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:id="@+id/snackbar_image"
+        android:layout_width="@dimen/dimen_5dp"
+        android:layout_height="@dimen/dimen_5dp"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorPrimary"/>
+
+    <TextView android:id="@+id/snackbar_text"
+        android:layout_gravity="center"
+        android:textSize="@dimen/dimen_15dp"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:text="@string/no_internet"
+        android:layout_marginEnd="@dimen/dimen_20dp"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/snackbar_image"
+        android:layout_toLeftOf="@+id/btn_dismiss"
+        android:layout_marginRight="@dimen/dimen_20dp" />
+
+    <TextView
+        android:id="@+id/btn_dismiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DISMISS"
+        android:textColor="@color/colorAccent"
+        android:textSize="16dp"
+        android:visibility="visible"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:layout_marginRight="@dimen/dimen_8dp"
+        android:layout_alignParentRight="true"
+
+        />
+</RelativeLayout>

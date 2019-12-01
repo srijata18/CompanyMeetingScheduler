@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CompanyMeetingScheduler</string>
+    <string name="back">BACK</string>
+    <string name="prev">PREV</string>
+    <string name="next">NEXT</string>
+    <string name="descp">Description</string>
+    <string name="submit">Submit</string>
+    <string name="schedule">Schedule company meeting</string>
+    <string name="schedule_a_meeting">SCHEDULE A MEETING</string>
+    <string name="no_internet">No internet connection.</string>
+    <string name="no_data_found">No Data Found</string>
+    <string name="meetingDate">Meeting Date</string>
+    <string name="meetingStartTime">Start Time</string>
+    <string name="meetingEndTime">End Time</string>
+</resources>
